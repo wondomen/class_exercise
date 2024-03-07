@@ -1,9 +1,9 @@
 package org.example;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorTest extends TestCase {
+public class CalculatorTest{
     @Test
     public void testAddMe() {
         Calculator calculator = new Calculator();
